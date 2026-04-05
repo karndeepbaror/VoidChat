@@ -56,34 +56,40 @@ Built with **Flask‑SocketIO** and a **sleek WhatsApp‑like interface**, VoidC
 
 </div>
 
-## 📂 Project Structure (Clickable)
+## 📂 Project Structure 
 
 <table>
   <tr>
     <td><code>📁 VoidChat/</code></td>
     <td></td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>&nbsp;&nbsp;├── 📄 <a href="server.py"><code>server.py</code></a></td>
     <td>– Flask‑SocketIO backend (WebSocket + HTTP)</td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>&nbsp;&nbsp;├── 📄 <a href="index.html"><code>index.html</code></a></td>
     <td>– Frontend UI · Socket.IO client · Animations</td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>&nbsp;&nbsp;├── 📄 <a href="README.md"><code>README.md</code></a></td>
-    <td>– Readme Page</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;└── 🧹</td>
-    <td>– No database · No logs · No external storage</td>
-  </tr>
+    <td>– Complete documentation</td>
+   </tr>
+   <tr>
+    <td>&nbsp;&nbsp;└── <code>📁 documentation/</code></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;├── 📡 <a href="DOCUMENTATION/API-REFERENCE.md"><code>API-REFERENCE.md</code></a></td>
+    <td>– Socket.IO events reference</td>
+   </tr>
+   <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;└── 🔒 <a href="DOCUMENTATION/SECURITY-PRIVACY.md"><code>SECURITY-PRIVACY.md</code></a></td>
+    <td>– Anonymity & privacy deep dive</td>
+   </tr>
 </table>
 
 > 🔍 **Click any filename** to view it directly on GitHub.
-
----
 
 ## 🚀 **Quick Start (Run Locally)**
 
